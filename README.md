@@ -10,7 +10,7 @@ Where you want to load the launcher
 ========================================
 				Bundle extras = new Bundle();
 				extras.putString("Packagename", getPackageName());
-				Intent i = new Intent(NameBoard_HomeScreen.this, FloatingLauncher.class);
+				Intent i = new Intent(this, FloatingLauncher.class);
 				i.putExtras(extras);
 				startActivity(i);
 				finish();

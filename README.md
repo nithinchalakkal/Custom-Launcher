@@ -5,6 +5,23 @@ Module Description:
 Using this library module, Developer can manage the the kiosk application's launcher/Exit programatically .
 
 USAGE :
+================
+
+How to Include an External .aar File Using Gradle?
+================
+
+Step 1. File -> New -> New Module -> Import .jar/.aar and import your .aar.
+
+Step 2. Then in your project’s build.gradle (the one under ‘app’) add the following:
+
+Step 3:
+dependencies {
+ compile project(‘:Name-of-the-Project’)
+}
+
+Step 4:
+Clean Build after all the above steps
+
 
 Where you want to load the launcher
 ========================================

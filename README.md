@@ -17,8 +17,7 @@ Where you want to load the launcher
 
 
 
-Where you want to Stop the launcher
-Note: Normally  in OnStart()
+Where you want to Stop the launcher || Normally  in OnStart()
 ========================================
-
-stopService(new Intent(this, FloatingViewService.class));
+				
+				stopService(new Intent(this, FloatingViewService.class));
